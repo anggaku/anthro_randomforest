@@ -315,7 +315,7 @@ def process_image(image_bgr: np.ndarray, draw_overlay=True):
 # STREAMLIT UI
 # =============================
 st.set_page_config(page_title="Anthropometry Extractor + Classifier", layout="wide")
-st.title("Ekstraksi Fitur Wajah → Klasifikasi (DownSyndrome vs Healthy)")
+st.title("Ekstraksi Fitur Wajah → Klasifikasi (DownSyndrome vs Healthy) Random Forest (0.84)")
 
 scaler = None
 clf = None
